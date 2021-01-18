@@ -1,0 +1,28 @@
+.square {
+	text-align: center;
+	height: 250px;
+	margin: 10px;
+	font-size: 14;
+	border: 1px solid #eee;
+	box-shadow: 0 2px 3px rgb(128, 128, 128);
+	box-sizing: border-box;
+	cursor: pointer;
+	img {
+		padding: 5px;
+		max-width: 100%;
+		height: 180px;
+		object-fit: cover;
+	}
+	p {
+		font-size: 12px;
+	}
+	h5 {
+		padding: 15px;
+		margin-bottom: 100px;
+	}
+}
+
+.Post:hover,
+.Post:active {
+	background-color: #c0ddf5;
+}
